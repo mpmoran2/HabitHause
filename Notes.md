@@ -7,8 +7,8 @@ Habit belongs_to: category has_many: goals
         needs to be able to create, patch, and delete
 
 Goals belongs_to: habit, has_many: streaks
-    startDate
-    streak
+    start
+    done
     habit_id
         needs to be able to create, patch, and delete
 
