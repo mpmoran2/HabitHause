@@ -1,2 +1,0 @@
-class StreaksController < ApplicationController
-end

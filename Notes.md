@@ -1,20 +1,16 @@
-Category has_many: habits
+Habit belongs_to: user
     name
-
-Habit belongs_to: category has_many: goals
-    name
-    category_id
+    user_id
         needs to be able to create, patch, and delete
-
-Goals belongs_to: habit, has_many: streaks
     start
-    done
-    habit_id
-        needs to be able to create, patch, and delete
+    done (call it streak or compleated?)
 
-Streak belongs_to: goals
-    date
-    goal_id
+User has_many: habits
+    name
+    password_digest
+ 
+* look up using Auxillary 
+
         
 
 
