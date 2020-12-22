@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Starting a new habit can be difficult. Research shows it takes 30-66 days to make a habit well, a habit. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Habit Hause helps users track up to 3 habits and lets users see when they started and how many consecutive days a habit has been done.
