@@ -1,0 +1,2 @@
+class DoneDaysController < ApplicationController
+end

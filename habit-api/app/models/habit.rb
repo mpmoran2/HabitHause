@@ -1,8 +1,9 @@
 class Habit < ApplicationRecord
     belongs_to :user
+    has_many :done_days
 
-    validates :name, wpresence: true
-    validates_inclusion_of :streak, :in => ['Done', 'Not Done']
+    validates :name, :goal, presence: true
+    
 
     # def update_streak(habit)
     #     if self.streak == 'Done'

@@ -3,6 +3,7 @@ class User < ApplicationRecord
 #     validates :username, :password, presence: true
 
 #     has_many :habits
+#     has_many :done_days
 #     has_many :sessions, => {order "created_at DESC"}
 
 #     # def streak 

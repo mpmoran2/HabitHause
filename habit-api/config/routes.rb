@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :done_days
+  resources :dones
   # resources :users, only: [:new, :create, :show]
   # resources :sessions, only: [:new, :create]
 

@@ -1,15 +1,21 @@
 Habit belongs_to: user
-    name
-    user_id
-        needs to be able to create, patch, and delete
-    start
-    done (call it streak or compleated?)
+    t.string :name
+    t.datetime :start_day
+    t.string :goal
+    t.datetime :streak
+    t.datetime :completed_day 
+    t.integer :user_id
+
+Done_day belongs_to: habit
+    t.datetime :completed
+    t.string :do_nodo
+    t.integer :habit_id  
 
 User has_many: habits
-    name
-    password_digest
+    t.string :username
+    t.string: password_digest
  
-* look up using Auxillary 
+
 
         
 
