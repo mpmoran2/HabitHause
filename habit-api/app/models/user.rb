@@ -25,4 +25,4 @@ class User < ApplicationRecord
 #         # end
 #         # streak_count
 #     # end    
-# end
+end

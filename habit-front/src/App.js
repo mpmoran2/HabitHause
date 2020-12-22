@@ -5,18 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <iframe src="https://giphy.com/embed/kBZ212yGzFaxgkSIKW" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/hi-hola-saludos-kBZ212yGzFaxgkSIKW">Habit Rabbit Greets You!</a></p>
         <p>
           Habit Hause!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

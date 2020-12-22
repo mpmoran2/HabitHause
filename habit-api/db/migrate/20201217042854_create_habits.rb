@@ -3,9 +3,9 @@ class CreateHabits < ActiveRecord::Migration[6.0]
     create_table :habits do |t|
       t.string :name
       t.string :goal
-      t.datetime :start_day
-      t.datetime :streak
-      t.datetime :completed_day 
+      t.date :start_day
+      t.integer :streak
+      t.date :completed_day 
       t.integer :user_id
       
       t.timestamps
